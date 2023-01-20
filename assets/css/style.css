@@ -30,6 +30,7 @@ body {
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+    align-items: center;
 }
 
 .header nav ul {
@@ -87,9 +88,7 @@ p {
     background-color: #2589bd;
 }
 /* consolidated */
-.benefit-lead, 
-.benefit-brand, 
-.benefit-cost {
+.benefits article{
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -100,9 +99,7 @@ h3 {
 }
 
 /* consolidated */
-.benefit-lead img, 
-.benefit-brand img, 
-.benefit-cost img {
+.benefits img{
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -126,12 +123,13 @@ h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* changed to display: none; because it was not visible in the markup */
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    display: none;
 }
 
 .footer h2 {
