@@ -14,7 +14,7 @@ body {
     background-color: #2a607c;
     color: #ffffff;
 }
-/* added commas */
+
 .header h1 {
     display: inline-block;
     font-size: 48px;
@@ -108,9 +108,7 @@ h3 {
     max-width: 150px;
 }
 /* consolidated */
-.search-engine-optimization, 
-.online-reputation-management, 
-.social-media-marketing  {
+.content article {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -119,9 +117,7 @@ h3 {
     color: #ffffff;
 }
 /* consolidated */
-.search-engine-optimization img, 
-.online-reputation-management img, 
-.social-media-marketing img {
+.content img {
     max-height: 200px;
 }
 
