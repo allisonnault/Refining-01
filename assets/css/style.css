@@ -32,12 +32,12 @@ body {
     font-size: 20px;
     align-items: center;
 }
-
-.header nav ul {
+/* cleaned up the family path */
+.header ul {
     list-style-type: none;
 }
-
-.header nav ul li {
+/* cleaned up the family path */
+.header li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -76,33 +76,10 @@ p {
     margin-left: 20px;
    
 }
-
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
-/* consolidated */
-.benefits article{
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/* consolidated */
-.benefits img{
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
+/* consolidated*/
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 /* consolidated */
 .content article {
@@ -118,11 +95,35 @@ h3 {
     max-height: 200px;
 }
 
-/* consolidated */
-h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
 }
+
+.benefits h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* consolidated */
+.benefits article{
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* consolidated */
+.benefits img{
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
 /* changed to display: none; because it was not visible in the markup */
 .footer {
     padding: 30px;
