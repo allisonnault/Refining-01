@@ -24,7 +24,7 @@ header h1 .seo {
     color: #d9dcd6;
 }
 /* below are style rules for the nav bar */
-header nav {
+nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -38,11 +38,11 @@ nav a {
     text-decoration: none;
 }
 
-header ul {
+nav ul {
     list-style-type: none;
 }
 
-header li {
+nav li {
     display: inline-block;
     margin-left: 25px;
 }
